@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Tabdila</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="welcome_user">Welcome User</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">Confirm your new password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="pt_password">Please enter your new password</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="email_id">Email ID</string>
+    <string name="btn_sign_google">Google</string>
+
+    <string name="btn_rest_tv_one">Restaurant</string>
+    <string name="btn_rest_tv_two">Need for a restaurant ?</string>
+    <string name="btn_taxi_tv_one">Taxi</string>
+    <string name="btn_taxi_tv_two">Need for a taxi ?</string>
+    <string name="btn_kiosk_tv_one">Kiosk</string>
+    <string name="btn_kiosk_tv_two">Need for a kiosk ?</string>
+    <string name="btn_commander_tv_one">Address</string>
+    <string name="btn_commander_tv_two">locate an address</string>
+    <string name="Title_notification">test Title</string>
+    <string name="message_notification">test notification</string>
+    <string name="latitude">Double latitude</string>
+    <string name="messageTaxi">you must have heecth or uber, INSTALL ?</string>
+    <string name="message_telechargement">Download finish</string>
+    <string name="Notification">Ceci est une notification</string>
+    <string name="item_signup">Sign up</string>
+
+    <string name="activity_profile">Profile</string>
+
+</resources>

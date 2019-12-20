@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.editProfil"
+    tools:showIn="@layout/activity_edit_profil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            style="@style/headerText"
+            android:text="Account Info"
+            android:layout_marginBottom="20dp"/>
+
+        <RelativeLayout style="@style/profileDetailsLayout"/>
+
+
+        <RelativeLayout
+            android:id="@+id/mobile2"
+            style="@style/profileDetailsLayout"
+            android:layout_width="395dp"
+            android:layout_height="64dp">
+
+            <ImageView
+                android:id="@+id/mobileImageView"
+                style="@style/profileDetailsImage"
+                android:src="@drawable/phone" />
+
+            <TextView
+                style="@style/profileDetailsTextMain"
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="53dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="273dp"
+                android:layout_marginBottom="33dp"
+                android:layout_toRightOf="@id/mobileImageView"
+                android:text="  Mobile" />
+
+            <TextView
+                android:id="@+id/mobile"
+                style="@style/profileDetailsMiniText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginEnd="240dp"
+                android:text="+91-8129999999" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout
+            style="@style/profileDetailsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <ImageView
+                android:id="@+id/emailImageView"
+                style="@style/profileDetailsImage"
+                android:src="@drawable/email123" />
+
+            <TextView
+                style="@style/profileDetailsTextMain"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="54dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="204dp"
+                android:layout_marginBottom="34dp"
+                android:layout_toRightOf="@id/emailImageView"
+                android:text="  Email" />
+
+            <TextView
+                android:id="@+id/email"
+                style="@style/profileDetailsMiniText"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginEnd="159dp"
+                android:text="username@email.com" />
+
+        </RelativeLayout>
+
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout
+            style="@style/profileDetailsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:id="@+id/adress2"
+
+            >
+
+            <ImageView
+                android:id="@+id/addressImageView"
+                style="@style/profileDetailsImage"
+                android:src="@drawable/adresse" />
+
+            <TextView
+                style="@style/profileDetailsTextMain"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="239dp"
+                android:layout_marginBottom="33dp"
+                android:layout_toRightOf="@id/addressImageView"
+                android:text="  Address" />
+
+            <EditText
+                android:id="@+id/adress"
+
+                style="@style/profileDetailsMiniText"
+                android:layout_width="304dp"
+                android:layout_height="37dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="-7dp"
+                android:text="Tunisia, Ariana, Cite Ghazala-Supcom" />
+        </RelativeLayout>
+
+
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout
+            android:id="@+id/date_nais"
+            style="@style/profileDetailsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/dobImageView"
+                style="@style/profileDetailsImage"
+                android:src="@drawable/calendar" />
+
+            ²
+
+            <TextView
+                style="@style/profileDetailsTextMain"
+                android:layout_width="116dp"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="54dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="201dp"
+                android:layout_marginBottom="11dp"
+                android:layout_toRightOf="@id/dobImageView"
+                android:text="  D.O.B" />
+
+            <EditText
+                android:id="@+id/date_naisa"
+                style="@style/profileDetailsMiniText"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="137dp"
+                android:layout_marginLeft="97dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="76dp"
+                android:layout_marginBottom="3dp"
+                android:layout_toRightOf="@id/dobImageView"
+                android:text="12-05-1990" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

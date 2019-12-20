@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "167224252701",
+    "firebase_url": "https://tabdila0f.firebaseio.com",
+    "project_id": "tabdila0f",
+    "storage_bucket": "tabdila0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167224252701:android:fd5f9b419a54921a2e69f4",
+        "android_client_info": {
+          "package_name": "com.example.tabdila0f"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167224252701-bamtald6pqkilml0jeas6hr7d77a6p20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tabdila0f",
+            "certificate_hash": "105fd2950af332b8cbb0404c86ed530a5555c9ef"
+          }
+        },
+        {
+          "client_id": "167224252701-u8bsr7967svrmtgn4cc3mmvcsksc3brp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnpnv-ZmXQc66a8ezAq1ZEb-YdJ7B6JY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167224252701-u8bsr7967svrmtgn4cc3mmvcsksc3brp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.ProfileActivity"
+    tools:showIn="@layout/activity_profile">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                style="@style/headerText"
+                android:text="Account Info"
+                android:layout_marginBottom="20dp"/>
+
+            <RelativeLayout style="@style/profileDetailsLayout"/>
+
+            <RelativeLayout style="@style/profileDetailsLayout">
+                <ImageView
+                    android:id="@+id/mobileImageView"
+                    android:src="@drawable/phone"
+                    style="@style/profileDetailsImage" />
+
+                <TextView
+                    style="@style/profileDetailsTextMain"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@id/mobileImageView"
+                    android:text="Mobile" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/mobile"
+                style="@style/profileDetailsMiniText"
+                android:text="+91-8129999999" />
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout style="@style/profileDetailsLayout">
+                <ImageView
+                    android:id="@+id/emailImageView"
+                    android:src="@drawable/email123"
+                    style="@style/profileDetailsImage" />
+
+                <TextView
+                    style="@style/profileDetailsTextMain"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@id/emailImageView"
+                    android:text="Email" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/email"
+                style="@style/profileDetailsMiniText"
+
+                android:text="Usermail@email.com" />
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout style="@style/profileDetailsLayout">
+                <ImageView
+                    android:id="@+id/addressImageView"
+                    android:src="@drawable/adresse"
+                    style="@style/profileDetailsImage" />
+
+                <TextView
+                    android:text="Address"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@id/addressImageView"
+                    style="@style/profileDetailsTextMain" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/adress"
+
+                style="@style/profileDetailsMiniText"
+                android:text="Tunisia, Ariana, Cite Ghazala-Supcom" />
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout style="@style/profileDetailsLayout">
+                <ImageView
+                    android:id="@+id/dobImageView"
+                    android:src="@drawable/calendar"
+                    style="@style/profileDetailsImage" />
+
+                <TextView
+                    android:text="D.O.B"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@id/dobImageView"
+                    style="@style/profileDetailsTextMain" />
+
+
+
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/date_naisa"
+                android:text="12-05-1990"
+                android:layout_toRightOf="@id/dobImageView"
+                style="@style/profileDetailsMiniText" />
+            <View style="@style/proifleDetailsView" />
+
+        </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

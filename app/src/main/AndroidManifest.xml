@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tabdila0f">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bartereicon7"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.Verifyphone"></activity>
+        <activity android:name=".Activities.editphone" />
+        <activity android:name=".Activities.welcom" />
+        <activity android:name=".Activities.editProfil" />
+        <activity android:name=".Activities.A_propos" />
+        <activity android:name=".Activities.ProfileActivity" />
+        <activity android:name=".Activities.Settings2activity" />
+        <activity android:name=".Activities.SettingActivity" />
+        <activity android:name=".Activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.HomeActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity
+            android:name=".Activities.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.PostDetailActivity" />
+    </application>
+
+</manifest>
